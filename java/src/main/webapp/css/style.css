@@ -1,0 +1,187 @@
+body {
+	background-color: #FFF;
+	font-family: 'Ibarra Real Nova', serif;
+	width: 90%;
+	padding-left: 30px;
+}
+/* image effect */
+
+.img-container {
+  position: relative;
+  width: 50%;
+}
+
+/* .image {
+  display: block;
+  width: 100%;
+  height: auto;
+} */
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #71a95a;
+}
+
+.img-container:hover .overlay {
+  opacity: 0.7;
+}
+.img-container:hover .text {
+	opacity: 1;
+}
+
+.text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/*  Background Image */
+li a {
+	font-size: 20px;
+}
+hr.type_5 {
+border: 0;
+height: 55px;
+background-image: url(https://www.formget.com/wp-content/uploads/2014/12/type_5.png);
+background-repeat: repeat;
+}
+header {
+	margin: 25px;
+}
+
+header h1 {
+	font-size: 21pt;
+	color: #FFFFFF;
+}
+
+header p {
+	color: #FFFFFF;
+	/*font-size: 12pt;*/
+}
+
+header img {
+	height: 200px;
+}
+
+nav {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.card {
+	box-shadow: 5px 10px 18px #888888;
+}
+
+/* parks layout  */
+.parks {
+	display: inline-block;
+	text-align: left;
+	margin: 20px;
+}
+
+.park {
+	display: flex;
+	margin-bottom: 30px;
+	box-shadow: 5px 10px 18px #888888;
+}
+.surveyParks {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.park p {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.details {
+	margin-left: 10px;
+}
+
+.quote {
+	width: 95%;
+}
+.detailsPark {
+	display: flex;
+}
+.detailsPark a {
+	width: 250%;
+}
+.detailsImg {
+    width: 95%;
+    margin: 20px;
+}
+
+.detailsPage {
+	margin: 20px 20px;
+}
+
+/* weather section layout  */
+.weather {
+	display: flex;
+}
+
+.today {
+	margin-right: 5%;
+	margin-left: 20px;
+	text-align: center;
+}
+.today img {
+	width: 40%;
+}
+
+.otherDays img {
+	width: 60%;
+}
+.otherDays {
+	text-align: center;
+	padding-top: 35px;
+	
+}
+.today h3 {
+	margin-bottom: 0;
+}
+
+.temp {
+	margin: 20px;
+	display: flex;	
+}
+
+.copyright {
+	padding-left: 20px;
+}
+
+/* login page layout  */
+.login {
+	margin: 5% 35%;
+}
+.login h3 {
+	text-align: center;
+}
+
+.error {
+	color: red;
+}
+.temp select {
+	width: 125px !important;
+}
+
+
+
+
+
+
